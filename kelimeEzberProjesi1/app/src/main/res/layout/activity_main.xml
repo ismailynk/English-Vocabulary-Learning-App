@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEFFDE"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="234dp"
+        android:layout_height="203dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewIng"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textViewTr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
+        android:text="TÜRKÇE"
+        android:textColor="#52734D"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonAnladım"
+        app:layout_constraintStart_toStartOf="@+id/textViewIng"
+        app:layout_constraintTop_toBottomOf="@+id/textViewIng" />
+
+    <TextView
+        android:id="@+id/textViewIng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="35dp"
+        android:text="İNGİLİZCE"
+        android:textColor="#52734D"
+        android:textColorLink="#9DC08B"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewTr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/buttonAnladım"
+        android:layout_width="209dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="40dp"
+        android:background="#DDFFBC"
+        android:text="ANLADIM"
+        android:textColor="#52734D"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTr" />
+</android.support.constraint.ConstraintLayout>

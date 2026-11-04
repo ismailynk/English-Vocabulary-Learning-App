@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ingToTr">
+
+    <Button
+        android:id="@+id/buttonB3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="32dp"
+        android:layout_weight="1"
+        android:background="#DDFFBC"
+        android:gravity="center_horizontal"
+        android:text="Button"
+        android:textColor="#52734D"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonC3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonA3" />
+
+    <Button
+        android:id="@+id/buttonA3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="21dp"
+        android:layout_weight="1"
+        android:background="#DDFFBC"
+        android:gravity="center_horizontal"
+        android:text="Button"
+        android:textColor="#52734D"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonB3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewIngiliz" />
+
+    <Button
+        android:id="@+id/buttonD3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="35dp"
+        android:layout_weight="1"
+        android:background="#DDFFBC"
+        android:gravity="center_horizontal"
+        android:text="Button"
+        android:textColor="#52734D"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonOk3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonC3" />
+
+    <Button
+        android:id="@+id/buttonC3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:layout_weight="1"
+        android:background="#DDFFBC"
+        android:gravity="center_horizontal"
+        android:text="Button"
+        android:textColor="#52734D"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonD3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonB3" />
+
+    <TextView
+        android:id="@+id/textViewIngiliz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="114dp"
+        android:layout_marginBottom="94dp"
+        android:text="TextView"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonA3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonOk3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonD3" />
+</android.support.constraint.ConstraintLayout>

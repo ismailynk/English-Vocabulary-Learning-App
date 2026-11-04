@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImgToYazi">
+
+    <EditText
+        android:id="@+id/editTextGirilen"
+        android:layout_width="235dp"
+        android:layout_height="51dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="96dp"
+        android:ems="10"
+        android:hint="Lütfen ingilizce kelimesini giriniz"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/buttonOk4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSoruTr" />
+
+    <TextView
+        android:id="@+id/textViewSoruTr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginBottom="42dp"
+        android:text="TextView"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextGirilen"
+        app:layout_constraintStart_toStartOf="@+id/imageViewSoruImg"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewSoruImg" />
+
+    <ImageView
+        android:id="@+id/imageViewSoruImg"
+        android:layout_width="173dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginBottom="29dp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewSoruTr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/buttonOk4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="63dp"
+        android:text="ONAYLA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextGirilen" />
+
+</android.support.constraint.ConstraintLayout>
